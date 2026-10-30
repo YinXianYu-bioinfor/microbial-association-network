@@ -1,0 +1,3 @@
+# Preserve published data and accession manifest byte-for-byte.
+/test_data/*.tsv -text whitespace=cr-at-eol
+/docs/*.tsv -text

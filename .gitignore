@@ -1,0 +1,23 @@
+# Local analyses are not part of the public source repository.
+/results_confirmed/
+/results_unconfirmed/
+/my_cli_test*/
+/my_gui_test*/
+/global_cli_*/
+/global_gui_*/
+/test_data/*
+!/test_data/README.md
+!/test_data/asv_counts_no_organelle.tsv
+!/test_data/sample_metadata.tsv
+!/test_data/taxonomy.tsv
+/demo_output/
+/network_result/
+
+# Python, environments, editors and operating systems
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.pytest_cache/
+.DS_Store
+Thumbs.db
